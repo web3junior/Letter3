@@ -8,10 +8,6 @@ Web Application deployed on Vercel: https://letter3.vercel.app/
 
 Get rinkeby test: https://faucets.chain.link/
 
-## Screenshot
-
-![Demo](demo.jpg) 
-
 ## Features
 * Add message
 * Identify your message
