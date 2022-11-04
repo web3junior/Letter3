@@ -1,12 +1,12 @@
 # Letter3
 Letters for the future - a decentralized application (dapp) where you send messages to the world of the future, your messages will be permanently stored on the blockchain.
 
-Smart contract deployed on Rinkeby testnet: 
-[0xB40d716a9aF64CcB22FDBDfA073e98Dfeb6c4c6E](https://rinkeby.etherscan.io/address/0xB40d716a9aF64CcB22FDBDfA073e98Dfeb6c4c6E)
+Smart contract deployed on Goerli testnet: 
+[0x089FC8Af90891508F5826d55daee98f566553626](https://goerli.etherscan.io/address/0x089FC8Af90891508F5826d55daee98f566553626)
 
 Web Application deployed on Vercel: https://letter3.vercel.app/
 
-Get rinkeby test: https://faucets.chain.link/
+Get goerli test: https://faucets.chain.link/
 
 ## Features
 * Add message
@@ -24,7 +24,7 @@ Get rinkeby test: https://faucets.chain.link/
 * Firebase (Use to save transactions)
 * Etherjs
 * Vercel (Deploy web app)
-* Infura, Rinkeby (Deploy smart contract)
+* Quicknode, Goerli (Deploy smart contract)
 
 ## Project setup
 ### Smart contract
@@ -33,11 +33,11 @@ Get rinkeby test: https://faucets.chain.link/
 * **Deploy smart contract (local)**
 1. npx hardhat node (keep terminal run, import accounts to metamask)
 2. npx hardhat run scripts/deploy.js --network localhost (open another terminal)
-* **Deploy smart contract (Rinkeby testnet)**
+* **Deploy smart contract (Goerli testnet)**
 1. Create .env file and add:  
-INFURA_API_KEY_URL: "rinkeby-network-endpoint-from-infura"  
-RINKEBY_PRIVATE_KEY: "account-private-key"
-2. npx hardhat run scripts/deploy.js --network rinkeby
+QUICKNODE_API_KEY_URL: "goerli-network-endpoint-from-quicknode"  
+GOERLI_PRIVATE_KEY: "account-private-key"
+2. npx hardhat run scripts/deploy.js --network goerli
 
 ### Frotend
 1. cd application
